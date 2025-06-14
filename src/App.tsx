@@ -1,4 +1,7 @@
 // export function App(){}; // É a terceira forma de exportar ao invés de usar function App(){} para usar o export... no final do arquivo.
+import './styles/theme.css';
+import './styles/global.css';
+import './App.css';
 export function App() {
   console.log('Oi');
   return (
