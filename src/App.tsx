@@ -1,35 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+// export function App(){}; // É a terceira forma de exportar ao invés de usar function App(){} para usar o export... no final do arquivo.
+export function App() {
+  console.log('Oi');
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+      <h1>Olá, porra! do App</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a orci
+        sit amet neque interdum iaculis. Etiam dictum aliquam placerat. Maecenas
+        quis tincidunt quam. Donec sollicitudin nisl justo, nec egestas risus
+        auctor nec.
       </p>
     </>
-  )
+  );
 }
 
-export default App
+//export default App; // Pode receber qualquer nome (QualquerCoisa) por causa do "default"
+// export { App }; //Agora precisa receber o nome "App"
+
+// <></> -> React Fragment
+// Que é o mesmo que importar e usar <Fragment></Fragment> de
+// import { Fragment } from 'react/jsx-runtime';
