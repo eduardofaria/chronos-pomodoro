@@ -1,4 +1,7 @@
 // export function App(){}; // É a terceira forma de exportar ao invés de usar function App(){} para usar o export... no final do arquivo.
+
+import { Heading } from './components/Heading';
+
 import './styles/theme.css';
 import './styles/global.css';
 import './App.css';
@@ -6,7 +9,7 @@ export function App() {
   console.log('Oi');
   return (
     <>
-      <h1>Olá, porra! do App</h1>
+      <Heading />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a orci
         sit amet neque interdum iaculis. Etiam dictum aliquam placerat. Maecenas
