@@ -9,7 +9,9 @@ export function App() {
   console.log('Oi');
   return (
     <>
-      <Heading />
+      <Heading>Olá Mundo!</Heading>
+      <Heading>Olá Children!</Heading>
+      <Heading attr={123} attr2='String'>Olá Mundo 2!</Heading>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a orci
         sit amet neque interdum iaculis. Etiam dictum aliquam placerat. Maecenas
