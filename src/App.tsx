@@ -6,7 +6,7 @@ import './styles/theme.css';
 import './styles/global.css';
 import './App.css';
 export function App() {
-  console.log('Oi');
+  //console.log('Oi');
   return (
     <>
       <Heading>Olá Mundo!</Heading>
